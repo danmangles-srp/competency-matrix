@@ -227,7 +227,7 @@ const DATA = [
   {id:"2f",category:"Communicating",level:"Mid",title:"Close the loop",isNew:true,
    behaviour:"After a verbal call, posts a short written summary of decisions and next steps, same day. If it isn't written down, it didn't happen.",
    example:"After a 30-min call: “Decisions: refunds capped at 60 days; Ken owns the copy. Next: I build the 60-day rule, client sends copy by Thu.”"},
-  {id:"2g",category:"Communicating",level:"Snr",title:"Manage up",isNew:true,
+  {id:"2g",category:"Communicating",level:"Snr",title:"Flag Deadline Slip early",isNew:true,
    behaviour:"Flags risk, slippage, and trade-offs to client stakeholders before they become surprises.",
    example:"Three days out: “Integration is ~2 days behind — their API changed. Slip the demo to Friday, or demo without live payments. I recommend Friday.”"},
 
@@ -261,8 +261,9 @@ const DATA = [
   {id:"4a",category:"Deliver Value",level:"Snr",title:"Knows client strategy",
    behaviour:"Can articulate the client's business strategy — revenue and profit goals for the next year and how they connect to the current system.",
    example:"“They make margin on repeat orders; goal is +20% revenue this year, and our checkout-speed work feeds their reorder rate — that's why it's priority one.”"},
-  {id:"4b",category:"Deliver Value",level:"Mid",title:"SMART milestones",
-   behaviour:"Defines and maintains SMART milestones.",
+  
+   {id:"4b",category:"Deliver Value",level:"Mid",title:"SMART milestones",
+   behaviour:"Defines and maintains SMART milestones",
    example:"“Refunds live in production, client-approved, by Sep 15” — specific, measurable, dated — not “work on refunds.”"},
   {id:"4c",category:"Deliver Value",level:"Mid",title:"Business framing",
    behaviour:"Can explain a task or milestone in business/project terms, not just technical ones.",
@@ -279,9 +280,9 @@ const DATA = [
   {id:"4g",category:"Deliver Value",level:"Snr",title:"Push back on low value",isNew:true,
    behaviour:"Pushes back on low-value work — protects scope and the client's budget.",
    example:"Client asks for a custom dashboard: “That's ~2 weeks. Your quarter goal is checkout speed and this doesn't move it — suggest we park it. Here's why.”"},
-  {id:"4h",category:"Deliver Value",level:"Mid",title:"Proactive value",isNew:true,
-   behaviour:"Spots and proposes value the client didn't ask for — surfaces opportunities and risks, not just closes tickets.",
-   example:"Unprompted: “Your biggest table has no index on customer_id; at current growth it'll crawl at ~100k rows, ~3 months out. Cheap to fix now.”"},
+  {id:"4h",category:"Deliver Value",level:"Mid",title:"Finish the Milestone",isNew:true,
+   behaviour:"Carefully self-reviews the milestone, fixing any gaps before proactively seeking product owner confirmation of done.",
+   example:"I've checked MS3 and realised i hadn't done the grade formula thing, fixed now, please Allison could you review the whole milestone on staging?”"},
   {id:"4i",category:"Deliver Value",level:"Jnr",title:"Knows the end user",isNew:true,
    behaviour:"Knows who the end users are and what they're trying to do — can name the user and the job-to-be-done for the feature in hand.",
    example:"Asked who uses the refund screen: “the client's support agents, under time pressure on live chat — so it needs to be two clicks, not a long form.”"}
